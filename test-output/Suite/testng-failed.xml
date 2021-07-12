@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestCases.CreateAndDeleteClustersTest">
+        <methods>
+          <include name="getData"/>
+          <include name="CreateAndDeleteClusters"/>
+        </methods>
+      </class> <!-- TestCases.CreateAndDeleteClustersTest -->
+      <class name="TestCases.ListAllClustersTest">
+        <methods>
+          <include name="getData"/>
+          <include name="RetrieveAllClusters"/>
+        </methods>
+      </class> <!-- TestCases.ListAllClustersTest -->
+      <class name="TestCases.ListHsBoxesTest">
+        <methods>
+          <include name="getData"/>
+          <include name="RetrieveHSBoxes"/>
+        </methods>
+      </class> <!-- TestCases.ListHsBoxesTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
